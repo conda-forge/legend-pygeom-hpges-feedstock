@@ -29,7 +29,6 @@ requirements:
     - pyg4ometry
     - dbetto
     - awkward
-    - pyarrow
 
 test:
   imports:
