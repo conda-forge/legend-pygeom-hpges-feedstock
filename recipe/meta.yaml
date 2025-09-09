@@ -11,7 +11,7 @@ source:
   sha256: ffd637dc5afe8569feca2d41e8290b4b740ee04b77f39d9a8ebcf90db69949a2
 
 build:
-  noarch: python
+  skip: true # [win]
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
 
@@ -30,7 +30,6 @@ requirements:
     - dbetto
     - awkward
     - pyarrow
-    - __unix
 
 test:
   imports:
