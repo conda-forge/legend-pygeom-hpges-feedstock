@@ -1,5 +1,5 @@
 {% set name = "legend-pygeom-hpges" %}
-{% set version = "0.8.0" %}
+{% set version = "0.8.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/legend_pygeom_hpges-{{ version }}.tar.gz
-  sha256: d00a737e620c1d93bdb28367a5e9378031f2619802e15f3114d188f60fdfd9d4
+  sha256: cd7da3d12c7a9aefaefcabccb9823f771625a89289d92b8a508107f0e5ac815d
 
 build:
   noarch: python
