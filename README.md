@@ -11,17 +11,16 @@ Summary: Geometry management for LEGEND HPGe detectors
 
 Development: https://github.com/legend-exp/legend-pygeom-hpges
 
-Documentation: https://legend-pygeom-hpges.readthedocs.io
+Documentation: https://legend-pygeom-hpges.readthedocs.io/
 
 Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=26519&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/legend-pygeom-hpges-feedstock?branchName=main">
-      </a>
+      <img src="https://img.shields.io/badge/noarch-disabled-lightgrey.svg" alt="noarch disabled">
     </td>
   </tr>
 </table>
